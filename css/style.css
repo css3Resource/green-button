@@ -1,0 +1,85 @@
+/* Your Css */
+
+html, body{ background: #31373d; }
+#content{ position: relative; width: 160px; margin: 200px auto; }
+
+/* typography */
+
+.nobile{ 
+	font-family: 'Nobile', arial, serif; 
+	color: #3d590d; 
+	text-shadow: #b7d473 0 1px 0;
+}
+
+p, cite{ 
+	font-family: Helvetica, Arial; 
+	text-transform: uppercase;
+}
+
+p, h2{
+	text-align: center; 
+}
+
+p{ 
+	font-size: 14px; 
+	font-weight: bold; 
+	letter-spacing: 1px; 
+}
+
+h2{ 
+	font-size: 80px; 
+	line-height: 100%;
+}
+
+cite{ 
+	font-size: 10px; 
+	line-height: 12px; 
+}
+
+sup{
+	font-size: 30px;
+}
+
+/* structure */
+
+.button{
+	position: relative;
+	width: 140px;
+	height: 140px;
+	padding:20px;
+	background-color: #b2da50;
+ 	background-image: -webkit-gradient(linear, left top, left bottom, from(#b2da50), to(#82bd0b));
+	background-image: -webkit-linear-gradient(top, #b2da50, #82bd0b);
+	background-image:    -moz-linear-gradient(top, #b2da50, #82bd0b);
+	background-image:     -ms-linear-gradient(top, #b2da50, #82bd0b);
+	background-image:      -o-linear-gradient(top, #b2da50, #82bd0b);
+	background-image:         linear-gradient(top, #b2da50, #82bd0b);
+	border-radius: 90px;
+	-webkit-border-radius: 90px;
+	-moz-border-radius: 90px;
+	-ms-border-radius: 90px;
+	-o-border-radius: 90px;
+	box-shadow: #222 1px 1px 15px;
+}
+
+.button sup{
+	position: absolute;
+	top: 57px;
+	left: 50px;	
+}
+
+.button cite{
+	position: absolute;
+	width: 50px;
+	top: 70px;
+	left: 115px;
+}
+
+.button p{
+	width: 100%;
+	margin-top: 15px;
+}
+
+.button p span{
+	display: block;
+}
